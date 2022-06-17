@@ -271,4 +271,8 @@ public final class MultiType implements Multi {
 
     throw new UnsupportedOperationException("Cannot iterator over NULL");
   }
+
+  public boolean isMap() {
+    return this.map != null;
+  }
 }
